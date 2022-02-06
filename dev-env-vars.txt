@@ -1,0 +1,2 @@
+AccountEndpoint=https://cosmosdb-neu-dltest01.documents.azure.com:443/;AccountKey=g63lqPhs4OX7cLaFoNoSfnCW0YrbJZSYhOIXOESbz5OTlTDInT0eUqZ8LVBIsoVGKFXPIyFXXU3yqPXMcfi2pw==;
+

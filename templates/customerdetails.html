@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Customer details</h1>
+
+<!-- customers is a list that must be sent here by a route function -->
+
+Customer ID: {{ customer["ID"] }}<BR>
+Company Name: {{ customer["CompanyName"] }}<BR><BR>
+
+<B>Address</B>:<BR>
+{{ customer["Street"] }}<BR>
+{{ customer["Town"] }}<BR>
+{{ customer["Postalcode"] }}<BR>
+{{ customer["Country"] }}<BR>
+
+
+{% endblock %}
